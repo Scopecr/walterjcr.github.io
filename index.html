@@ -263,14 +263,37 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div><!-- End off col-md-6  -->
+                            </div><!-- End off col-md-6 -->
 
                             <div class="portfolio_btn text-center fix m-top-100">
-                                <a href="" class="btn btn-primary">View All</a>
+                                <a href="" onclick="downloadPDF()" class="btn btn-primary">Download PFD</a>
+                                <script>
+                                    function downloadPDF() {
+                                    // Create a link element
+                                    const link = document.createElement('a');
+                                    
+                                    // Set the href to your PDF file
+                                    link.href = '/images/Walter_Carrion_Resume.pdf';
+                                    
+                                    // Set the download attribute
+                                    link.download = 'Walter_Carrion_Resume.pdf';
+                                    
+                                    // Append to the document (not necessary to be visible)
+                                    document.body.appendChild(link);
+                                    
+                                    // Trigger the click event
+                                    link.click();
+                                    
+                                    // Clean up
+                                    document.body.removeChild(link);
+                                    }
+                                    </script>
                             </div>
                         </div>
                     </div><!-- End off row -->
                 </div><!-- End off container -->
+                <!--Download Resume button-->
+                <!--End off Download Resume button-->
             </section><!-- End off portfolio Section -->
 
             <!--Contact Section-->
