@@ -920,8 +920,8 @@ Home Section style
 }
 .home-shadow img{
     width: 70%;
-    position: absolute;
-    right: 0;
+    position: relative;
+    right: 1;
     top: 0px;
 }
 .home_text h2{
