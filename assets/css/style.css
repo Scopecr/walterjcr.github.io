@@ -659,7 +659,7 @@ p-0{
 /*for placeholder changes*/
 
 input[type="email"].form-control::-webkit-input-placeholder {
-    color: #fff;
+    color: #f0eeee;
     background-color: transparent;
 }
 
@@ -725,7 +725,7 @@ textarea::-ms-input-placeholder{
 .fix{
     overflow: hidden;
 }
-/*heading title all area*/
+/*ing title all area*/
 .head_title{
     /*padding-bottom: 7.143rem;*/
     overflow: hidden;
@@ -1065,13 +1065,13 @@ About us section style
 .divider{
     height: 1px;
     width:100px;
-    background-color: #e0ecf0;
+    background-color: #8ccfe5;
     display: inline-block;
 }
 .divider1{
     height: 1px;
     width:100%;
-    background-color: #e0ecf0;
+    background-color: #8ccfe5;
     display: inline-block;
     margin-top:20px;
 }
@@ -1175,7 +1175,7 @@ Footer Section style
     transform: rotate(-90deg);
 }
 .head_right h2{
-    color:#e0ecf0;
+    color:#b5d5df;
 }
 .choose_item .head_right{
     top: -100px;
